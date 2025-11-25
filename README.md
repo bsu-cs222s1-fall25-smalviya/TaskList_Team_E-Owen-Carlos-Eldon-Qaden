@@ -11,9 +11,4 @@ A task list that allows a user to create a list of tasks, alongside selecting a 
 * Qaden Childs
 
 # Build Instructions
-[Build Instructions](https://github.com/bsu-cs222s1-fall25-smalviya/TaskList_Team_E-Owen-Carlos-Eldon-Qaden/tree/main/build)
-
-# Run Instructions
-
-# Unit Test
-[Unit Test](https://github.com/bsu-cs222s1-fall25-smalviya/TaskList_Team_E-Owen-Carlos-Eldon-Qaden/blob/main/src/test/java/edu/bsu/cs222/project2menu/TaskList_Tests.java)
+[Build Instructions](https://github.com/bsu-cs222s1-fall25-smalviya/TaskList_Team_E-Owen-Carlos-Eldon-Qaden/blob/main/build.gradle)
