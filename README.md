@@ -12,3 +12,8 @@ A task list that allows a user to create a list of tasks, alongside selecting a 
 
 # Build Instructions
 [Build Instructions](https://github.com/bsu-cs222s1-fall25-smalviya/TaskList_Team_E-Owen-Carlos-Eldon-Qaden/blob/main/build.gradle)
+
+# Run Instructions
+To run project, 
+
+Input your task, then select a day, and then select a time.
