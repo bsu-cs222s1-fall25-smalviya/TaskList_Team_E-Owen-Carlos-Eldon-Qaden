@@ -37,7 +37,7 @@ public class Photo{
     public boolean saveScreenshot(){
         BufferedImage image = captureScreenshot();
         if(image != null){
-            savePhoto(image, "screenshot.png");
+            savePhoto(image, "Task_List.png");
         }else{
             System.out.println("No photo captured.");
         }
