@@ -41,7 +41,7 @@ public class TaskListController implements Initializable {
         boolean success = photo.saveScreenshot();
         if (success) {
             welcomeText.setText("Screenshot saved!");
-        }else {welcomeText.setText("Screenshot was not able to be saved!");}
+        }
     }
 
     //return input from formating code to print to list

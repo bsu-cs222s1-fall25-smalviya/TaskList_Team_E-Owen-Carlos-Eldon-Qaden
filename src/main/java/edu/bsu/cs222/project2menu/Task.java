@@ -25,6 +25,4 @@ public class Task {
         return this.month;
     }
 
-    public String getName() { return this.name; }
-
 }
