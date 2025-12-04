@@ -1,29 +1,16 @@
 package edu.bsu.cs222.project2menu;
 
-import javafx.application.Application;
-import javafx.scene.Scene;
+import javafx.stage.Stage;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class TaskList_Tests {
-
+    //Test case for our Photo Class
     @Test
-    public void launchTest(){
-        Application.launch(String.valueOf(Launcher.class));
-        launchTest();
-    }
-
-    @Test
-    public void photoTest(){
+    public void test_TaskList_Test() {
         Photo photo = new Photo();
         photo.saveScreenshot();
-        photoTest();
     }
-
-    @Test
-    public void applicationTest(){
-        TaskApplication application = new TaskApplication();
-        application.getClass();
-        applicationTest();
-    }
-
+    //Test case for our TaskApplication class
 }
