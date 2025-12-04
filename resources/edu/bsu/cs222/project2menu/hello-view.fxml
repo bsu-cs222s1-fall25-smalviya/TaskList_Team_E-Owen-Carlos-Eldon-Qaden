@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="910.0" prefWidth="653.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.bsu.cs222.project2menu.TaskListController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Label text="Task List Creator" />
+   <Separator prefHeight="34.0" prefWidth="457.0" />
+   <Label text="Input Task" />
+   <TextField fx:id="taskInputField" />
+   <Label text="Day and Time" />
+   <DatePicker fx:id="dateInputField" />
+   <BorderPane prefHeight="38.0" prefWidth="613.0">
+      <left>
+         <Button fx:id="inputButton" onAction="#printInput" text="Enter Input" BorderPane.alignment="CENTER" />
+      </left>
+      <right>
+         <Button fx:id="clearButton" onAction="#clearList" text="Clear List" BorderPane.alignment="CENTER" />
+      </right>
+   </BorderPane>
+   <ListView fx:id="formatedListArea" prefHeight="572.0" prefWidth="613.0" />
+
+    <Label fx:id="welcomeText" />
+    <Button fx:id="screenshotButton" onAction="#listScreenshot" text="Screenshot" />
+</VBox>
