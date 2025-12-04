@@ -27,7 +27,7 @@ public class Photo{
     private void savePhoto(BufferedImage image, String filename){
         try{
             ImageIO.write(image, "png", new File(filename));
-            System.out.println("Failed to save image to " + filename);
+            System.out.println("Saved image to " + filename);
         }catch (Exception e){
             System.err.println("Error saving image to " + filename);
         }

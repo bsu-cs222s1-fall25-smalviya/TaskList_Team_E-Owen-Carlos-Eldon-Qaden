@@ -36,7 +36,7 @@ public class TaskListController implements Initializable {
     }
     //takes a screenshot of the users screen to keep a version of their list
     @FXML protected void listScreenshot() {
-        welcomeText.setText("Take a screenshot!");
+        welcomeText.setText("Screenshot was successful!");
         photo.saveScreenshot();
         boolean success = photo.saveScreenshot();
         if (success) {
