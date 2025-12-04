@@ -10,7 +10,7 @@
     </padding>
     <Label text="Task List Creator" />
     <Separator prefHeight="34.0" prefWidth="457.0" />
-    <Label text="Input Task and Time" />
+    <Label text="Input Task and Time (EX: Dishes - 2PM)" />
     <TextField fx:id="taskInputField" />
     <Label text="Enter Date to be Completed by!" />
     <DatePicker fx:id="dateInputField" />
