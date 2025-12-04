@@ -11,7 +11,7 @@ Eldon Johnson
 Qaden Childs
 
 Build Instructions
-
+https://github.com/bsu-cs222s1-fall25-smalviya/TaskList_Team_E-Owen-Carlos-Eldon-Qaden/blob/master/build.gradle
 
 Run Instructions
 To run project,
